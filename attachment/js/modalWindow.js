@@ -10,11 +10,13 @@ btnShowWindow.addEventListener('click', function() {
     modalWindow.classList.remove('hide')  
 });
 
+
+btnCloseWindow.addEventListener('click', hideModalWindow);
+
+
 // btnShowWindow.addEventListener('click', showAndHideModalWindow);
 
 
 // function showAndHideModalWindow() {
 //     modalWindow.classList.toggle('hide')
 // }
-
-btnCloseWindow.addEventListener('click', hideModalWindow); // 
