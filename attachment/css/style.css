@@ -32,7 +32,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
+    left: 37%;
+
 }
 
 .close_btn {

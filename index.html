@@ -9,6 +9,10 @@
 </head>
 <body>
 
+    все норм, только модалку надо сделать position: absolute, т.к. она у тебя просто в основном потоку хтмл, 
+    и при добавлении контента оно у тебя будет уезжать вниз
+надо немного поправить js файл, потому что у тебя непонятно почему в одном месте анонимная функция, в другом именованная
+
     <!-- <div class="parent">
       <div class="child-f"></div>
       <div class="child-s"></div>
@@ -31,13 +35,13 @@
 
     <button class="show_modal">click here!</button>
 
-    <div class="modal hide">
+    <div class="modal">
       <h2 class="modal_text">This is modal window</h2>
       <button class="close_btn">X</button>
     </div>
 
     
-
+    <!-- <script src="./attachment/js/dom.js"></script> -->
     <script src="./attachment/js/modalWindow.js"></script>
 
 </body>
